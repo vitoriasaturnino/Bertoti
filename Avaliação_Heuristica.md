@@ -19,9 +19,8 @@ __1.2 Mídia baseada em tempo__
 __1.3 Adaptável__
 # 
 
-È muito importante garantir que o conteúdo que possa ser apresentado de diferentes layouts sem perder informações ou estrutura. como os exempolas a abaixo:
+É muito importante garantir que o conteúdo possa ser apresentado em diferentes layouts sem perder informações ou estrutura. como os exempolas a abaixo:
 
-- __A cor não é usada como o único meio visual de transmitir informações, indicar uma ação, solicitar uma resposta ou distinguir um elemento visual.__
 - __Orientação__
 
 O conteúdo da página não se restringe a somente uma forma de exibição (como paisagem ou retrato), a menos que uma orientação de exibição seja específica seja definida previamente. O layout deve se adequar ao tamanho da viwport como podemos observar nos exemplos abaixo:
@@ -43,7 +42,7 @@ A finalidade para o conteúdo de cada campo de entrada deve ser explicita.
 __1.4 - Distinguível__
 # 
 
-Faça com que seja simples para o seu usuário ver e ouvir o conteúdo, incluindo a deistinção do primeiro plano do plano de fundo. como nos exemplos abaixo: 
+Faça com que seja simples para o seu usuário ver e ouvir o conteúdo, incluindo a distinção do primeiro plano do plano de fundo. como nos exemplos abaixo: 
 
 - __Uso de cor__
 
@@ -51,7 +50,7 @@ Podemos usar as cores como uma ótima forma de exibir informações so usuário,
 
 ![Ex. forma incorreta de utilizar cores]()
 
-![Ex. de usso correto de cores para tranmitir mensagens]()
+![Ex. de uso correto de cores para tranmitir mensagens]()
 
 - __Contraste__ 
   
