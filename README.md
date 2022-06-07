@@ -47,7 +47,7 @@ Exemplo implemetação:
 `<img alt="Agentes polinizadores"src="./IHC/imagens_exemplos/tag_alt_img.png">`
 
 <div align="center">
-  <img width="500px" src="./IHC/imagens_exemplos/tag_alt_img.png">
+  <img width="700px" src="./IHC/imagens_exemplos/tag_alt_img.png">
 </div>
 
 <br>
@@ -69,7 +69,7 @@ garanta que o conteúdo possa ser apresentado em diferentes layouts sem perder i
 Exemplos: O conteúdo da página não se restringe a somente uma forma de exibição (como paisagem ou retrato), a menos que uma orientação de exibição seja específica seja definida previamente. O layout deve se adequar ao tamanho da viwport como podemos observar
 
 <div align="center">
-  <img  width="500px" src="./IHC/imagens_exemplos/adaptacao_viewport.png">
+  <img  width="700px" src="./IHC/imagens_exemplos/adaptacao_viewport.png">
 </div>
 
 <br>
@@ -78,7 +78,7 @@ Exemplos: O conteúdo da página não se restringe a somente uma forma de exibi�
 Faça com que seja simples para o seu usuário ver e ouvir o conteúdo, incluindo a distinção do primeiro plano do plano de fundo.
 
 <div align="center">
-  <img  width="500px" src="./IHC/imagens_exemplos/distincao_conteudo.png">
+  <img  width="700px" src="./IHC/imagens_exemplos/distincao_conteudo.png">
 </div>
 
 <br>
@@ -91,7 +91,7 @@ Todas as funcionalidades devem ser interativas a partir de um teclado.
 Exemplo:
 
 <div align="center">
-  <img  width="500px" src="./IHC/imagens_exemplos/teclado_acessivel.gif">
+  <img  width="700px" src="./IHC/imagens_exemplos/teclado_acessivel.gif">
 </div>
 
 <br>
@@ -102,7 +102,7 @@ Permita que os conteúdos a serem exibidos permaneçam na tela por tempo suficie
 Exemplo:
 
 <div align="center">
-  <img  width="500px" src="./IHC/imagens_exemplos/tempo_suficiente.gif">
+  <img  width="700px" src="./IHC/imagens_exemplos/tempo_suficiente.gif">
 </div>
 
 <br>
@@ -113,7 +113,7 @@ A epilepsia fotossensível é uma condição em que as convulsões são desencad
 Exemplo retirado de um site divertido onde ao há minhoquinha interativa na tela que se mexe de acordo com a velocidade em que movimentamos o mouse, comforme a velocidade aumenta luzes começam a piscar freneticamente no bacground.
 
 <div align="center">
-  <img  width="500px" src="./IHC/imagens_exemplos/flashs_de_luz.png">
+  <img  width="700px" src="./IHC/imagens_exemplos/flashs_de_luz.png">
 </div>
 
 http://www.staggeringbeauty.com/
@@ -126,7 +126,7 @@ Forneça maneiras de ajudar o usuário a navegar, encontrar conteúdo e determin
 Exemplo: Aqui podemos ver o passo a passo dos dados que precisam ser preenchidos até o envio do formulário.
 
 <div align="center">
-  <img  width="500px" src="./IHC/imagens_exemplos/wizard_form.jpg">
+  <img  width="700px" src="./IHC/imagens_exemplos/wizard_form.jpg">
 </div>
 
 <br>
@@ -141,7 +141,7 @@ A linguagem humana padrão de cada página da Web pode ser determinada programat
 Exemplo:
 
 <div align="center">
-  <img  width="500px" src="./IHC/imagens_exemplos/linguagem_defiinida_programaticamente.jpg">
+  <img  width="700px" src="./IHC/imagens_exemplos/linguagem_defiinida_programaticamente.jpg">
 </div>
 
 <br>
@@ -152,7 +152,7 @@ Páginas da Web, aplicativos e interfaces online devem ser intuitivos e previsí
 Exemplo:
 
 <div align="center">
-  <img  width="500px" src="./IHC/imagens_exemplos/interface_previsivel.png">
+  <img  width="700px" src="./IHC/imagens_exemplos/interface_previsivel.png">
 </div>
 
 <br>
@@ -163,7 +163,7 @@ Ajude o usuário a evitar, buscar e corrigir os erros.
 Exemplo:
 
 <div align="center">
-  <img  width="500px" src="./IHC/imagens_exemplos/mensagem_erro.png">
+  <img  width="700px" src="./IHC/imagens_exemplos/mensagem_erro.png">
 </div>
 
 <br>
@@ -176,5 +176,5 @@ O conteúdo deve ser robusto o suficiente para que possa ser interpretado por um
 O <a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=pt-br">Google Lighthouse</a> é uma ferramenta automatizada que permite medir a qualidade das páginas da web. Ele pode ser executado em qualquer página da Web, pública ou que exija autenticação.Suas funcionalidades premitem auditar o desempenho, a acessibilidade e a otimização do mecanismo de pesquisa de páginas da web.
 
 <div align="center">
-  <img  width="500px" src="./IHC/imagens_exemplos/google_lighthouse.jpeg">
+  <img  width="700px" src="./IHC/imagens_exemplos/google_lighthouse.jpeg">
 </div>
