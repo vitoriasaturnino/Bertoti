@@ -1,161 +1,180 @@
-  ## 1. Perceptível
- 
-  __1.1 Alternativas de texto:__
-  É muito importante dar alternativas de texto para conteúdosnão textuais, para que possa ser alterado para outras formas que as pessoas precisem, como letras grandes, braille, fala, símbolos ou linguagem mais simples.
- 
- 
- ![Ex. imagem com descrição](https://spguia.melhoresdestinos.com.br/system/fotos_local/fotos/47843/show/cachoeiras-do-prata.jpg)
+<h1 align="">Avaliação Heurística | IHC (Interação Humano Computador) | 3º Semestre ADS</h1>
 
-Implementação da descrição dessa imagem usando a Tag Alt:
+<div align="">
 
- ```
-<img alt="Cachoeiras-do-prata" src="https://spguia.melhoresdestinos.com.br/system/fotos_local/fotos/47843/show/cachoeiras-do-prata.jpg">
- ```
- # 
+<h2>Sumário</h2>
 
-__1.2 Mídia baseada em tempo__
+<h3>1. <a href="#1.perceptivel"> Perceptível</a></h3> 
+<ul>
+  <li>1.1<a href="#1.1_alternativas_de_texto"> Alternativas de texto </a></li>
+  <li>1.2<a href="#1.2_midia_baseada_em_tempo"> Mídia baseada em tempo </a></li>
+  <li>1.3<a href="#1.3_adaptavel"> Adptável </a></li>
+  <li>1.4<a href="#1.4_distinguivel"> Distinguível </a></li>
+</ul>
 
+<h3>2. <a href="#2.operavel"> Operável </a></h3>
+<ul>
+  <li>2.1<a href="#2.1_teclado_acessivel"> Teclado acessível </a></li>
+  <li>2.2<a href="#2.2_tempo_suficiente"> Tempo suficiente </a></li>
+  <li>2.3<a href="#2.3_convulsoes_e_reacoes_fisicas"> Convulsões e reações fisícas </a></li>
+  <li>2.4<a href="#2.4_navegavel"> Navegável </a></li>
+  <!-- <li>2.5<a href="#2.5_modalidades_de_entrada"> Modalidades de entrada </a></li> -->
+</ul>
 
-__1.3 Adaptável__
-# 
+<h3>3. <a href="#3.compreensivel"> Compreensível </a></h3>
+<ul>
+  <li>3.1<a href="#3.1_legivel"> Legível </a></li>
+  <li>3.2<a href="#3.2_previsivel"> Previsível </a></li>
+  <li>3.3<a href="#3.3_assistencia_de_entrada"> Assistência de entrada </a></li>
+</ul>
 
-É muito importante garantir que o conteúdo possa ser apresentado em diferentes layouts sem perder informações ou estrutura. como os exempolas a abaixo:
+<h3>4. <a href="#4.robusto"> Robusto </a></h3>
+<ul>
+  <li>4.1<a href="#4.1_compativel"> Compatível </a></li>
+</ul>
 
-- __Orientação__
+</div>
 
-O conteúdo da página não se restringe a somente uma forma de exibição (como paisagem ou retrato), a menos que uma orientação de exibição seja específica seja definida previamente. O layout deve se adequar ao tamanho da viwport como podemos observar nos exemplos abaixo:
+#
 
- ![Ex. conteúdo adaptável tamanho 1](https://user-images.githubusercontent.com/68754092/158474397-2929872c-1cea-44ba-bb57-aa0efc07f2bd.png)
-![Ex. conteúdo adaptável tamanho 2](https://user-images.githubusercontent.com/68754092/158474493-5d5dbcb1-9ef9-42a9-b603-939a08450038.png)
-![Ex. conteúdo adaptável tamanho 3](https://user-images.githubusercontent.com/68754092/158474394-f7a86f7e-659c-4dbf-9ec5-ae62ef937932.png)
+<h2 id="1.perceptivel">1. Perceptível</h2>
 
-- __Identificar o propósito de entrada__
+<h3 id="1.1_alternativas_de_texto">1.1 Alternativas de Texto</h3>
+É muito importante disponibilizar alternativas de texto para conteúdos não textuais como imagens por exemplo, issi facilita o entendimento do usuário caso o conteúdo precise ser alterado para outras formas, como letras grandes, braille, fala, símbolos ou linguagem mais simples.
 
-A finalidade para o conteúdo de cada campo de entrada deve ser explicita.
+Exemplo implemetação:
 
- ![Ex. campos de entrada com a expecificação para a informação que deve ser inserida](https://user-images.githubusercontent.com/68754092/158474998-09879009-4df7-4174-ae53-3f14c36ef2fa.png))
+`<img alt="Agentes polinizadores"src="./IHC/imagens_exemplos/tag_alt_img.png">`
 
- ![Ex. campos de entrada sem as expecificação para a informação que deve ser inserida](https://user-images.githubusercontent.com/68754092/158474809-8ac71fb3-32a0-4829-bab7-a2eb67cecac5.png))
+<div align="center">
+  <img width="300px" src="./IHC/imagens_exemplos/tag_alt_img.png">
+</div>
 
-__1.4 - Distinguível__
-# 
+<br>
 
-Faça com que seja simples para o seu usuário ver e ouvir o conteúdo, incluindo a distinção do primeiro plano do plano de fundo. como nos exemplos abaixo: 
+<h3 id="1.2_midia_baseada_em_tempo">1.2 Mídia Baseada em Tempo</h3>
 
-- __Uso de cor__
+Forneça legendas e transcrições para conteúdo de áudio e vídeo pré-gravado ou ao vivo, isso o torna acessível para usuários com perda auditiva ou problemas de compreensão da fala.  
+O exemplo utilizado vem de um dos meus canais preferidos e nesse vídeo eles contextualizam o termo <a href="https://www.youtube.com/watch?v=U1kKWqlfxnk">UX</a>
 
-Podemos usar as cores como uma ótima forma de exibir informações so usuário, como por exemplo  indicar uma ação, solicitar uma resposta, distinguir um elemento visual ou informar se um processo foi concluído com sucesso ou não.
+<div align="center">
+  <img align="centerr" width="400px" src="./IHC/imagens_exemplos/midia_baseada_em_tempo.png">
+</div>
 
-![Ex. forma incorreta de utilizar cores](https://user-images.githubusercontent.com/68754092/158473960-4ce835a8-3877-46d3-9f32-7f637983ea3c.png)
+<br>
 
-![Ex. de uso correto de cores para tranmitir mensagens](https://user-images.githubusercontent.com/68754092/158474082-bbf08d3b-5d4a-4fbf-bd87-8e8740519a29.png)
+<h3 id="1.3_adaptavel">1.3 Adptável</h3>
+garanta que o conteúdo possa ser apresentado em diferentes layouts sem perder informações ou estrutura.
 
-- __Contraste__ 
-  
-A apresentação visual de texto e imagens na página devem ter contraste de forma que as informções principais s sobresaiam e fique mais fácil distingui-las.
+Exemplos: O conteúdo da página não se restringe a somente uma forma de exibição (como paisagem ou retrato), a menos que uma orientação de exibição seja específica seja definida previamente. O layout deve se adequar ao tamanho da viwport como podemos observar
 
-Exemplo sem contraste, note como é difícil ler as informações da página:
-![pagSemContraste](https://user-images.githubusercontent.com/68754092/158473145-e34eacf2-fe74-459f-8206-913423097d75.png)
+<div align="center">
+  <img  width="350px" src="./IHC/imagens_exemplos/adaptacao_viewport.png">
+</div>
 
-Agora nesste exemplo temos um contraste adequado entre o fundo e as informções principais, tornando a compreenção mais clara.
-![pagComContraste](https://user-images.githubusercontent.com/68754092/158473208-bf1d57b5-b3be-43d3-b8e6-e6c9b166e3de.png)
+<br>
 
-__Conteúdo ao passar o mouse ou foco__
+<h3 id="1.4_distinguivel">1.4 Distinguível</h3>
+Faça com que seja simples para o seu usuário ver e ouvir o conteúdo, incluindo a distinção do primeiro plano do plano de fundo.
 
-Podemos fazer uso de um conteúdo adicional para se tornar visível e depois oculto, de acordo com a passagem do mause por cima do objeto. 
+<div align="center">
+  <img  width="350px" src="./IHC/imagens_exemplos/distincao_conteudo.png">
+</div>
 
+<br>
 
-Podemos notar algumas altrações  quando passamos o mouse sobre alguns elementos do site, mostrando que eles estão selecionados.
+<h2 id="2.operavel">2. Operável</h2>
 
-![G1 - O portal de notícias da Globo - Google Chrome 2022-03-15 17-33-49 (1)](https://user-images.githubusercontent.com/68754092/158477511-e8c04cfe-5a8b-44b2-b0b3-dccb179d5e47.gif)
-
-
-## 2. Operável
-
-__2.1	Teclado acessível__
-# 
-
+<h3 id="2.1_teclado_acessivel">2.1 Teclado Acessível</h3>  
 Todas as funcionalidades devem ser interativas a partir de um teclado.
 
-![gif avançando pelos objetos usando a tecla tab](https://user-images.githubusercontent.com/68754092/158480171-0894b4bb-248f-4358-b113-62cac50965e8.gif)
+Exemplo:
 
-mostrar como é implenmentado no "código"
+<div align="center">
+  <img  width="350px" src="./IHC/imagens_exemplos/teclado_acessivel.gif">
+</div>
 
-__2.2 Tempo suficiente__
-# 
+<br>
 
-mantenha o conteudo presente na tela por tempo suficiente para que o usuiário possa ler ou interagir.
+<h3 id="2.2_tempo_suficiente">2.2 Tempo Suficiente</h3>
+Permita que os conteúdos a serem exibidos permaneçam na tela por tempo suficiente para que possam ser lidos.
 
-Exemplos
+Exemplo:
 
-__2.3 - Convulsões e Reações Físicas__
-# 
+<div align="center">
+  <img  width="400px" src="./IHC/imagens_exemplos/tempo_suficiente.gif">
+</div>
 
-Não crie conteúdo de uma forma conhecida por causar convulsões ou reações físicas.
+<br>
 
-colocar elementos que pisquem mais de 3 vezes em menos de um segundo pode causar crises convulsivas em alguns usuários, por esse motivo devem ser evitadas em todos os casos
+<h3 id="2.3_convulsoes_e_reacoes_fisicas">2.3 Convulsões e Reações Fisícas</h3>
+A epilepsia fotossensível é uma condição em que as convulsões são desencadeadas por luzes intermitentes ou padrões contrastantes de luz e escuridão. Tendo em mente essa condição o uso de luzes e super-estímulos vizuais devem ser evitados, caso não seja posível devemos aletar o usuário antes que ele seja exposto a esse típo de conteúdo.
 
-__2.4 - Navegável__
-# 
+Exemplo retirado de um site divertido onde ao há minhoquinha interativa na tela que se mexe de acordo com a velocidade em que movimentamos o mouse, comforme a velocidade aumenta luzes começam a piscar freneticamente no bacground.
 
-Forneça maneiras de ajudar os usuários a navegar, encontrar conteúdo e determinar os passos seguntes até encontrar seu objetivo.
+<div align="center">
+  <img  width="300px" src="./IHC/imagens_exemplos/flashs_de_luz.png">
+</div>
 
-- __Ordem de foco__
+http://www.staggeringbeauty.com/
 
-Deixe sua pagina o mais intuítiva possível, faça com que  os próximos elementos da sequência sejam destacados para uma melhor experiência do usuário na navegação.
+<br>
 
-ex algum formulário com "linha do tempo dos passos"
+<h3 id="2.4_navegavel">2.4 Navegável</h3>
+Forneça maneiras de ajudar o usuário a navegar, encontrar conteúdo e determinar os passos seguintes para chegar ao seu objetivo.
 
+Exemplo: Aqui podemos ver o passo a passo dos dados que precisam ser preenchidos até o envio do formulário.
 
-- __Localização__
+<div align="center">
+  <img  width="350px" src="./IHC/imagens_exemplos/wizard_form.jpg">
+</div>
 
-Informações sobre a localização do usuário em um conjunto de páginas da Web estão disponíveis.
+<br>
 
-- __Objetivo do link__
+<!-- <h3 id="2.5_modalidades_de_entrada">2.5 Modalidades de entrada</h3> -->
 
-A finalidade de cada link deve ser explicita apenas pelo texto do link.
+<h2 id="3.compreensivel">3. Compreensível</h2>
 
-__2.5 - Modalidades de Entrada__
-# 
+<h3 id="3.1_legivel">3.1 Legível</h3>
+A linguagem humana padrão de cada página da Web pode ser determinada programaticamente.
 
-## 3 Compreensível
+Exemplo:
 
-O conteúdo e navegabilidade da interface devem ser claras ao usuário.
+<div align="center">
+  <img  width="400px" src="./IHC/imagens_exemplos/linguagem_defiinida_programaticamente.jpg">
+</div>
 
-__3.1 Legível__
-# 
+<br>
 
-Torne o conteúdo do texto legível e compreensível.
+<h3 id="3.2_previsivel">3.2 Previsível</h3>
+Páginas da Web, aplicativos e interfaces online devem ser intuitivos e previsíveis em como funcionam. Os sites geralmente têm uma estrutura definida. Isso ajuda as pessoas a encontrar facilmente informações desejadas.
 
-- __Abreviaturas__
+Exemplo:
 
-Identifique por extenço o significado das abreviaturas.
+<div align="center">
+  <img  width="350px" src="./IHC/imagens_exemplos/interface_previsivel.png">
+</div>
 
+<br>
 
-__3.2 Previsível__
-# 
+<h3 id="3.3_assistencia_de_entrada">Assistência de Entrada</h3>
+Ajude o usuário a evitar, buscar e corrigir os erros.
 
-As páginas web devem aparecer e operar de maneira previsível
+Exemplo:
 
-__3.3 Assistência de entrada__
+<div align="center">
+  <img  width="400px" src="./IHC/imagens_exemplos/mensagem_erro.png">
+</div>
 
-Ajude o usuário a evitar erros, caso não seja possível os torne visíveis e mostre a maneira mais simples de resolve-los
-# 
+<br>
 
-- __Erro de identificação__
+<h2 id="4.robusto">4. Robusto</h2>
 
-Se um erro de entrada for detectado, o item que está com erro é identificado, o erro é descrito para o usuário em texto para que o mesmo consiga executar o processo de forma correta
+<h3 id="4.1_compativel">4.1 Compativel</h3>
+O conteúdo deve ser robusto o suficiente para que possa ser interpretado por uma ampla variedade de agentes de usuário, incluindo tecnologias assistivas.
 
-ex de erro login
+O <a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=pt-br">Google Lighthouse</a> é uma ferramenta automatizada que permite medir a qualidade das páginas da web. Ele pode ser executado em qualquer página da Web, pública ou que exija autenticação.Suas funcionalidades premitem auditar o desempenho, a acessibilidade e a otimização do mecanismo de pesquisa de páginas da web.
 
-- __Prevenção de erros__
-
-Para páginas da Web que exigem que o usuário envie informações, pode se disponibilizar dicas de como o conteúdo deve ser inserido
-
-## 4. Robusto
-
-Maximize a compatibilidade com agentes de usuário atuais e futuros, incluindo tecnologias assistivas.
-
-__4.1 Compatível__
-
-
+<div align="center">
+  <img  width="400px" src="./IHC/imagens_exemplos/google_lighthouse.jpeg">
+</div>
