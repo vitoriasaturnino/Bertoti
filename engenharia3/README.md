@@ -1,3 +1,9 @@
-## Patterns
+## Design Patterns - Padrões GoF
 
-- [Estratégia](./estrategia/)
+- [Composite](./composite/)
+
+- [Facade](./facade/)
+- [MVC](./mvc/)
+- [Observer](./observer/)
+- [Singleton](./singleton/)
+- [Strategy](./strategy/)
